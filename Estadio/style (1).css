@@ -1,0 +1,395 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-weight: normal;
+    font-family: 'Segoe UI';
+
+    font-size: 12px;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image:
+        linear-gradient(-45deg, #cccccc, #cccccc);
+}
+
+.center {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carusel_cont{
+    width: 950px;
+    height: 650px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 250px;
+    top: -1220px;
+}
+
+.img_carusel_cont{
+    width: 100%;
+    height: 100%x;
+
+    background-color: #fff;
+    border: solid 2px #000000;
+    border-radius: 25px;
+
+    box-shadow: 0px 10px 10px #00000030;
+    overflow: hidden;
+}
+
+.fade{ animation: fade .5s ease-in; }
+
+@keyframes fade {
+    from {opacity: .8}
+    to {opacity: 1}
+}
+
+button{
+    width: 100px;
+   height: 50px;
+   position: relative;
+   top: 250px;
+   left: 180px;
+   margin-right: 50px;
+   margin-left: 50px;
+ 
+   color: #1700afce;
+   background-color: #fff;
+   border: solid 2px #1902ad;
+   border-radius: 15px;
+
+   font-size: 25px;
+   font-weight: bolder;
+
+   cursor: pointer;
+   box-shadow: 0px 10px 10px #00000030;
+}
+button:hover { background-color: #fbe6ff; }
+.dot_cont{
+    width: 700px;
+    height: 1000px;
+
+    position: absolute;
+    bottom: -300px;
+    right: 75px;
+    justify-content: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot{
+    width: 1120px;
+    height: 80px;
+
+    background-color: #e2e2e2;
+    border-radius: 25px;
+
+    margin: 15px;
+    cursor: pointer;
+    position: relative;
+    top: 965px;
+    right: 300px;
+}
+.vistas{
+    border-radius: 15px;
+    width: 100px;
+    height: 70px;
+    position: relative;
+    top: 5px;
+}
+
+/* Titulo y contenido del estadio trebol */
+
+.trebol{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 1220px;
+    height: 1300px;
+    background-color: #a1a1a1;
+    border-radius: 0 100px 40px 15px  ;
+}
+.trebol2{
+    font-size: 45px;
+    width: 650px;
+    height: 120px;
+    position: relative;
+    left: 500px;
+    top: 20px;
+}
+.trebol21{
+    font-size: 25px;
+    position: relative;
+    top: -20px;
+    position: relative;
+    left: 250px;
+    
+}
+.trebol3{
+    font-size: 20px;
+    width: 600px;
+    height: 150px;
+    position: relative;
+    left: 550px;
+    border-radius: 25px 25px 0 0 ;
+    background-color: #888888;
+}
+.trebol4{
+    font-size: 20px;
+    width: 600px;
+    height: 150px;
+    position: relative;
+    left: 550px;
+    top: -18px;
+    background-color: #867c7c;
+}
+.trebol5{
+    font-size: 20px;
+    width: 600px;
+    height: 90px;
+    position: relative;
+    left: 550px;
+    top: -35px;
+    background-color: #888888;
+}
+.trebol6{
+    font-size: 20px;
+    width: 600px;
+    height: 210px;
+    position: relative;
+    left: 550px;
+    top: -52px;
+    border-radius: 0 0 25px 25px ;
+    background-color: #867c7c;
+}
+.jdjd{
+    position: relative;
+    top: -1250px;
+    right: 302px;
+}
+.jdjdjd{
+    position: relative;
+    top: 10px;
+    left: 550px;
+    color: #fff;
+    font-size: 15px;
+    background-color: #000000;
+    width: 100px;
+    height: 25px;
+    border-radius: 25px;
+}
+.jdjdjd1{
+    position: relative;
+    top: -15px;
+    left: 698px;
+    color: #fff;
+    font-size: 15px;
+    background-color: #000000;
+    width: 100px;
+    height: 25px;
+    border-radius: 25px;
+}
+.jdjdjd2{
+    position: relative;
+    top: -40px;
+    left: 838px;
+    color: #fff;
+    font-size: 15px;
+    background-color: #000000;
+    width: 100px;
+    height: 25px;
+    border-radius: 25px;
+}
+.jdjdjd3{
+    position: relative;
+    top: -65px;
+    left: 978px;
+    color: #fff;
+    font-size: 15px;
+    background-color: #000000;
+    width: 100px;
+    height: 25px;
+    border-radius: 25px;
+}
+.jdjdjd4{
+    position: relative;
+    top: -90px;
+    left: 1118px;
+    color: #fff;
+    font-size: 15px;
+    background-color: #000000;
+    width: 100px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+/*Mapa del estadio trebol*/
+.mapa{
+    position: relative;
+    top: -1200px;
+    right: 370px;
+    
+}
+.hdhd{
+    position: relative;
+    top: -1800px;
+    left: 800px;
+    background-color: #161616;
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+}
+.hdhdhd{
+    color: #cccccc;
+    font-size: 20px;
+}
+.esta{
+    font-size: 30px;
+    position: relative;
+    right: 170px;
+}
+.estad{
+    font-size: 30px;
+}
+.doroteo{
+    position: relative;
+    top: -1560px;
+    left: 30px;
+    background-color: #a1a1a1;
+    width: 1220px;
+    height: 700px;
+    border-radius: 15px 40px 100px 0;
+}
+.mapa1{
+    position: relative;
+    top: -350px;
+    right: 350px;
+}
+.titulo{
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    top: 20px;
+    left: 350px;
+    background-color: #000000;
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+}
+.descripcion{
+    width: 600px;
+    position: relative;
+    left: 550px;
+    top: 30px;
+}
+.descripcion1{
+    width: 500px;
+    position: relative;
+    left: 32px;
+    top: -175px;
+    color: #fff;
+    font-size: 15px;
+}
+.des{
+    position: relative;
+    left: 10px;
+    top: 20px; 
+    font-size: 15px;
+    background-color: #000000;
+    width: 550px;
+    height: 150px;
+    border-radius: 50px;
+}
+.des1{
+    position: relative;
+    left: 10px;
+    top: 30px;
+    color: #fff;
+    font-size: 15px;
+    background-color: #000000;
+    width: 550px;
+    height: 60px;
+    border-radius: 50px;
+}
+.descripcion2{
+    width: 500px;
+    position: relative;
+    left: 32px;
+    top: -160px;
+    color: #fff;
+    font-size: 15px;
+}
+.doroteo1{
+    background-color: #000000;
+    width: 1060px;
+    height: 220px;
+    position: relative;
+    top: -1820px;
+    left: 140px;
+    border-radius: 30px;
+}
+.doroteo2{
+   position: relative;
+   top: 15px;
+   right: 25px;
+}
+.doroteo3{
+    position: relative;
+    top:15px;
+}
+.doroteo4{
+    position: relative;
+    top:15px;
+    left: 25px;
+}
+.textorr{
+    color: #fff;
+    font-size: 20px;
+  }
+.regreso{
+    position: relative;
+    top: -1700px;
+ } 
+.buttom{
+    background: linear-gradient(102deg, #cd1731 40%, #bb122b 60%);
+    color: #ffff;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 1.25rem;
+    min-width: 200px;
+    
+    text-decoration: none;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+    animation: pulse 1.5s infinite;
+    position: relative;
+    top: 20px;
+}
+@keyframes pulse{
+    0%{
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256, 256, 256, .1);
+    }
+    70%{
+        transform: scale(1);
+        box-shadow: 0 0 0 25px rgba(256, 256, 256, 0);
+    }
+    100%{
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256, 256, 256, 0);
+    }
+}
+.dot:hover{ background-color: #757575; }
+.active{ background-color: #5f5b5b; }
+.active:hover{ background-color: #b3b3b3; }

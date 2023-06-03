@@ -1,0 +1,42 @@
+let basedejuego = [
+    {
+        pregunta:" ¿Cual es la fecha en la que se fundo el Club?",
+        ayuda:"Fue antes de los años 40s",
+        ayudaimg:"https://i.ibb.co/Nm0S1qM/ffff.webp",
+        imagen:"https://i.ibb.co/DKDPKpg/sasd.jpg",
+        respuesta:"17 de Mayo de 1936 ",
+        distractores:[ "18 de Mayo de 1937", "17 de Marzo de 1936","18 de Mayo 1942"],
+    },
+    {
+        pregunta:" ¿Cuales son los colores del uniforme del club?",
+        ayuda:"es el mismo que el del escudo",
+        ayudaimg:"https://i.ibb.co/k8KvcJd/Escudo2.jpg",
+        imagen:"https://i.ibb.co/47sTJdw/cilueta.png",
+        respuesta:"Rojo y Azul ",
+        distractores:[ "Amarillo y Verde", "Verde y Blanco","Azul y Blanco"],
+    },
+    {
+        pregunta:" ¿Año en el que Municipal gano la única concacaf de Guatemala?",
+        ayuda:"Fue el mismo año del mundial de Alemania",
+        ayudaimg:"https://i.ibb.co/sg0VrMS/sssss.jpg",
+        imagen:"https://i.ibb.co/C6y7Kr1/concacaf.jpg",
+        respuesta:"En el año 1974 ",
+        distractores:[ "En el año 1975", "En el año 1970","En el año 1971"],
+    },
+    {
+        pregunta:" ¿Cuantos titulos de liga tiene Municipal?",
+        ayuda:"No hay ayuda para esta pregunta...?",
+        ayudaimg:"https://i.ibb.co/zVK0m4b/fwf.png",
+        imagen:"https://i.ibb.co/pbprtTT/rojoligas.jpg",
+        respuesta:"31 Ligas ",
+        distractores:[ "29 Ligas", "30 Ligas","25 Ligas"],
+    },
+    {
+        pregunta:" ¿Cual es el clasico rival de los Rojos?",
+        ayuda:"Son los hijos de los Rojos xd",
+        ayudaimg:"https://i.ibb.co/WxK4VbC/dsfsdgf.jpg",
+        imagen:"https://i.ibb.co/ZmM9H3p/asads.png",
+        respuesta:"Comunicaciones FC (Hospicio FC) ",
+        distractores:[ "Xelaju (Superchicos", "Antigua Guatemala FC","Guastatoya FC"],
+    },
+];

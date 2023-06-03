@@ -1,0 +1,739 @@
+.body{
+  height: 1500px;
+
+}
+
+.baner{
+    width: 1320px;
+    height: 170px;
+    background-color: black;
+    position: relative;
+    top: -10px;
+    right: 10px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img{
+    position: relative;
+    top: 15px;
+    left: 25px;
+}
+.titu{
+    position: relative;
+    top: -80px;
+    left: 200px;
+}
+.bandera{
+    position: relative;
+    top: -175px;
+    left: 1100px;
+}
+.regreso{
+    height: 150px;
+    position: relative;
+    top: -200px;
+}
+.buttom{
+    background: linear-gradient(102deg, #cd1731 40%, #bb122b 60%);
+    color: #ffff;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 1.25rem;
+   
+    
+    text-decoration: none;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+    animation: pulse 1.5s infinite;
+    width: 180px;
+    height: 70px;
+    position: relative;
+    top: -20px;
+    left: 480px;
+}
+.texto{
+    position: relative;
+    top: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.imgescu{
+    position: relative;
+    top: 8px;
+    right: 8px;
+}
+.ti{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -45px;
+    left: 40px;
+    font-size: 20px;
+}
+.ligar{
+    width: 400px;
+    height: 270px;
+    background-color: black;
+    border-radius: 40px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+.titulosLL{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40px;
+    right: 0px;
+}
+.imgliga{
+    position: relative;
+    left: 150px;
+    top: 15px;
+}
+.titulosliga{
+    position: relative;
+    top: 40px;
+    left: 100px;
+    background-color: rgb(85, 85, 85);
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+.imgcopa{
+    position: relative;
+    top: 17px;
+    left: 200px;
+
+}
+.copasll{
+position: relative;
+top: 40px;
+right: 35px;
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+.dropdown {
+    position: relative;
+    
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: #505050;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+    top: 50px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .h12{
+    font-size: 15px;
+    color: #ffffff;
+    position: relative;
+    top: -9px;
+    right: 0px;
+  }
+  .h1{
+    position: relative;
+    top: 15px;
+  }
+  .h13{
+    position: relative;
+    top: -405px;
+    left: 130px;
+  }
+  
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #cfcfcf;
+    min-width: 300px;
+    height: 470px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 30px;
+    left: 30px;
+    border-radius: 20px;
+  }
+  
+  .dropdown-content a {
+    color: #000000;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+.copas{
+    background-color: #000000;
+    position: relative;
+    top: -250px;
+    left: 520px;
+    width: 400px;
+    height: 270px;
+    border-radius: 40px;
+}
+.imgcopa{
+    position: relative;
+    left: 150px;
+}
+.imgcopa1{
+  position: relative;
+  left: 130px;
+  top: 20px;
+}
+
+
+
+/**marca **/
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn2 {
+    background-color: #505050;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #cfcfcf;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 35px;
+    left: 110px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .dropdown-content2 a {
+    color: #333;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown2:hover .dropdown-content2 {
+    display: block;
+  }
+  /** -------------------------otra marca-----------------------**/
+
+
+
+
+  /** marca**/
+.campeondecmp{
+    background-color: #000000;
+    position: relative;
+    top: -230px;
+    left: 520px;
+    width: 400px;
+    height: 270px;
+    border-radius: 40px;
+
+}
+.ddd{
+    position: relative;
+    left: -27px;
+    top: 40px;
+    
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dropdown3 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn3 {
+    background-color: #505050;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  
+  .dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #cfcfcf;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 35px;
+    left: 100px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .dropdown-content3 a {
+    color: #333;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+  }
+  ul {
+    position: relative;
+    z-index: 9999;
+  }
+  
+  .dropdown3:hover .dropdown-content3 {
+    display: block;
+  }
+  /**---------------------otra marca mas--------------------**/
+  .UncafR{
+    background-color: #000000;
+    position: relative;
+    top: -520px;
+    left: 100px;
+    width: 400px;
+    height: 270px;
+    border-radius: 40px;
+
+}
+.uncafrr{
+    position: relative;
+    left: 20px;
+    top: 40px;
+
+    
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dropdown4 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn4 {
+    background-color: #505050;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  
+  .dropdown-content4 {
+    display: none;
+    position: absolute;
+    background-color: #cfcfcf;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 35px;
+    left: 100px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .dropdown-content4 a {
+    color: #333;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown4:hover .dropdown-content4 {
+    display: block;
+  }
+
+/** otra marca**/
+.indices{
+  background-color: #000000;
+  
+    top: -1080px;
+    left: 970px;
+    width: 250px;
+    height: 270px;
+    border-radius: 40px;
+    position: fixed;
+   top: 54.5%;
+   transform: translateY(-50%);
+   z-index: 2;
+}
+.indicet{
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 20px;
+  left: 40px;
+}
+.cont{
+  position: relative;
+  top: 10px;
+  left: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+.cont1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  margin-top: 15px;
+}
+
+  /**MARCA**/
+  .conca{
+    background-color: #000000;
+    position: relative;
+    top: -500px;
+    left: 100px;
+    width: 400px;
+    height: 270px;
+    border-radius: 40px;
+
+}
+.concarr{
+    position: relative;
+    right:10px;
+    top: 40px;
+   
+    
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dropdown5 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn5 {
+    background-color: #505050;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  
+  .dropdown-content5 {
+    display: none;
+    position: absolute;
+    background-color: #cfcfcf;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 35px;
+    left: 100px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .dropdown-content5 a {
+    color: #333;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown5:hover .dropdown-content5 {
+    display: block;
+  }
+  .videos{
+    position: relative;
+    top: -420px;
+    left: 100px;
+    width: 800px;
+    height: 450px;
+    border-width: 20px;
+    border-radius: 40px;
+    border-style: inset;
+    border-color: #bb122b;
+
+  }
+
+
+  /** ---------------Plantilla---------------**/
+  .imagen {
+    display: none;
+    position: relative;
+    left: 250px;
+    border-radius:20px ;
+    border-width: 10px;
+    border-style: inset;
+    border-color: red;
+  }
+  
+  .nombre:hover + .imagen {
+    display: block;
+  }
+  .plantilla{
+    background-color: #000000;
+    position: relative;
+    top: -350px;
+
+    left: 100px;
+    width: 800px;
+    height: 1850px;
+    color: #fff;
+    border-radius: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .tituloplantilla{
+    position: relative;
+    left: 220px;
+    font-size: 30px;
+
+  }
+  .nombre{
+    position: relative;
+    left: 180px;
+    background-color: #7a7a7a;
+    width: 300px;
+    height: 30px;
+    border-radius: 0 0 10px  10px ;
+    text-align: center;
+    justify-content: center; 
+  }
+  .nombr1{
+    position: relative;
+    left: 160px;
+    background-color: #505050;
+    width: 400px;
+    height: 30px;
+    border-radius: 0  20px  20px 0;
+  }
+  .Portero{
+    position: relative;
+    left: 130px;
+  }
+  .divi{
+    background-color: #333;
+    width: 700px;
+    position: relative;
+    left: 50px;
+    border-radius: 30px;
+  }
+  .Defensas{
+    position: relative;
+    left: 130px;
+  }
+  .divi1{
+    background-color: #333;
+    width: 700px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    border-radius: 30px;
+  }
+  .Medio{
+    position: relative;
+    left: 130px;
+
+  }
+  .divi2{
+    background-color: #333;
+    width: 700px;
+    position: relative;
+    top: 40px;
+    left: 50px;
+    border-radius: 30px;
+  }
+  .delantera{
+    position: relative;
+    left: 130px;
+
+  }
+  .divi3{
+    background-color: #333;
+    width: 700px;
+    position: relative;
+    top: 40px;
+    left: 50px;
+    border-radius: 30px;
+  }
+
+
+  /**--------------JUEGO-----------**/
+.juego1{
+    background-color: #000000;
+    width: 900px;
+    height: 520px;
+    position: relative;
+    left: 50px;
+    top: -300px;
+    border-radius: 40px;
+  }
+  .juego2{
+      font-family: Arial, Helvetica, sans-serif;
+      color: #fff;
+      font-size: 20px;
+      position: relative;
+      top: -155px;
+      left: 120px;
+  }
+  .canciones{
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -310px;
+    left: 500px;
+  }
+  .titulocancion{
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -250px;
+    left: 500px;
+  }
+  .audio{
+    position: relative;
+    top: -230px;
+    left: 520px;
+  }
+  .titulocancion1{
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -220px;
+    left: 500px;
+  }
+  .audio1{
+    position: relative;
+    top: -200px;
+    left: 520px;
+  }
+  .titulocancion2{
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -190px;
+    left: 500px;
+  }
+  .audio2{
+    position: relative;
+    top: -170px;
+    left: 520px;
+  }
+
+
+
+
+
+
+
+  .imgesp{
+    position: relative;
+    left: 380px;
+    top: -220px;
+    
+  }
+  .ss{
+    color: #505050;
+    position: relative;
+    top: 10px;
+  }
+  .fondoc{
+    position: relative;
+    left: 370px;
+    top: -90px;
+    width: 120px;
+    height: 120px;
+    background-color: #505050;
+    border-width: 100px;
+    border-radius: 500px;
+    border-color: #505050;
+  }
+  .fondo{
+    background-color: #505050;
+    width: 790px;
+    height: 80px;
+    border-radius: 40px;
+    position: relative;
+    left: 80px;
+    top: 35px;
+  }
+  .facil{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -170px;
+    left: 150px;
+    font-size: 30px;
+  }
+  .medio{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -120px;
+    left: 5px;
+    font-size: 30px;
+  }
+  .dificil{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -70px;
+    right: 155px;
+    font-size: 30px;
+  }
+
+  .aa{
+    color: #ffffff;
+    position: relative;
+    top: -340px;
+    left: 500px;
+  }
+
+@keyframes pulse{
+    0%{
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256, 256, 256, .1);
+    }
+    70%{
+        transform: scale(1);
+        box-shadow: 0 0 0 25px rgba(256, 256, 256, 0);
+    }
+    100%{
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256, 256, 256, 0);
+    }
+}

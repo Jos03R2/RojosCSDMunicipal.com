@@ -1,0 +1,119 @@
+*{
+    transition: all 0.25s;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: steelblue;
+    background-image: url(https://i.ibb.co/qgMhSJm/fondo.gif);
+    
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    font-size: 120%;
+}
+#encabezado{
+    position: relative;
+    top: 240px;
+    right: -40px;
+    width: 80vw;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.respuesta{
+    position: relative;
+    top: 260px;
+    right: -100px;
+    width: 70vw;
+    background: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.respuesta:hover{
+    background: lightgray;
+}
+.titulod{
+    position: relative;
+    top: -180px;
+    left: 1200px;
+    
+    height: 250px;
+}
+.titulod1{
+    width: 700px;
+    position: relative;
+    right: 250px;
+}
+.escudo{
+    position: relative;
+    right: 390px;
+}
+.banderag{
+    position: relative;
+    top: -120px;
+    left: 530px;
+}
+.imgescu{
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+.ti{
+    position: relative;
+    top: -15px;
+    left: 20px;
+}
+.buttom{
+    background: linear-gradient(102deg, #cd1731 40%, #bb122b 60%);
+    color: #ffff;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 1.25rem;
+    min-width: 200px;
+    
+    text-decoration: none;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+    animation: pulse 1.5s infinite;
+    position: relative;
+    top: 20px;
+    left: 280px;
+}
+.texto{
+    width: 800px;
+    color: #fff;}
+
+.regreso{
+    position: relative;
+    top: 760px;
+    right: 950px;
+    width: 2700px;
+    height: 270px;
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256, 256, 256, .1);
+    }
+    70%{
+        transform: scale(1);
+        box-shadow: 0 0 0 25px rgba(256, 256, 256, 0);
+    }
+    100%{
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256, 256, 256, 0);
+    }
+}

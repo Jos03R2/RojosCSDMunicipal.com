@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="estilojuego.css">
+    <script src="basedeljuego.js"></script>
+    <script defer src="juego.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js"></script> 
+
+    <meta property="og:site_name" content="Quiz de Municipal">
+    <meta property="og:title" content="Quiz de Municipal">
+    <meta property="og:description" content="Version Facil">
+    <meta property="og:image" content="Escudo2.jpg">
+    <link rel="icon" type="image/jpg" href="Escudo2.jpg">
+</head>
+
+<body>
+    <div class="titulod" style="background-color: rgb(0, 0, 0); padding: 20px;"> 
+		<table width="100%" >
+			<tr>
+				<td ><font color="FFCB33">
+		<h1> <img class="escudo" src="Escudo.png" style="width: 90px ; margin-bottom: -1px;"></h1></font>
+		</td>
+		<td><font color="white" ><h1 class="titulod1">Quiz (nivel facil) de CSD MUNICIPAL</h1></font></td></tr></table>
+        <img class="banderag" src="bandera.jpg" alt="" width="250" height="120">
+    </div>
+    
+    <div id="Tablero-de-quiz">
+        <div id="encabezado">
+            <a class="btn btn-success" onclick="ayuda()">¿Necesitas ayuda?</a>
+            <br>
+            
+          <span id="pregunta">Pregunta 1</span> 
+            <br>
+            
+            <img id="imagen" src="https://i.ibb.co/y6PNRt7/as.jpg" alt="" style="width: 90%; height: 200px;object-fit: contain;">
+        </div>
+        <div class="respuesta" id="respuesta1" onclick="seleccionarrespuesta(0)">
+            Respuesta 1
+        </div>
+        <div class="respuesta" id="respuesta2" onclick="seleccionarrespuesta(1)">
+            Respuesta 2
+        </div>
+        <div class="respuesta" id="respuesta3" onclick="seleccionarrespuesta(2)">
+            Respuesta 3
+        </div>
+        <div class="respuesta" id="respuesta4" onclick="seleccionarrespuesta(3)">
+            Respuesta 4
+        </div>
+    </div>
+    
+    <div class="regreso" id="Navbar" style="background: #120082; padding: 40px;">
+		<h1 align="center" class="texto">Regresar a la pagina principal</h1>
+        <a href="../informacion.html" class="buttom"><img src="Escudo.png" style="width: 30px;" alt="" class="imgescu"><p class="ti">Pagina anterior</p> </a>
+	</div>
+</body>
+</html>
